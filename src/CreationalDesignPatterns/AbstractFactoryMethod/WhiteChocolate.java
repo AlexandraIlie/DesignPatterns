@@ -1,6 +1,6 @@
 package CreationalDesignPatterns.AbstractFactoryMethod;
 
-public class WhiteChocolate implements Chocolate{
+public class WhiteChocolate implements Chocolate {
 
     @Override
     public void addSugar() {
@@ -17,7 +17,7 @@ public class WhiteChocolate implements Chocolate{
         System.out.println("40g milk powder added");
     }
 
-    public void addEvilRaisins(){
+    public void addEvilRaisins() {
         System.out.println("Evil raisins added");
     }
 }

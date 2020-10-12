@@ -1,12 +1,12 @@
 package CreationalDesignPatterns.AbstractFactoryMethod;
 
-public class ChocolateCreator{
+public class ChocolateCreator {
 
-    public static ChocolateFactory getFactory(String type){
-        switch(type){
-            case("MILK"):
+    public static ChocolateFactory getFactory(String type) {
+        switch (type) {
+            case ("MILK"):
                 return new MilkChocolateFactory();
-            case("WHITE"):
+            case ("WHITE"):
                 return new WhiteChocolateFactory();
         }
         return null;

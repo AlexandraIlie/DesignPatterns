@@ -1,6 +1,6 @@
 package CreationalDesignPatterns.FactoryMethod;
 
-public class Teacher implements Worker{
+public class Teacher implements Worker {
     @Override
     public void routineBeforeWork() {
         System.out.println("Teacher's routine after work");

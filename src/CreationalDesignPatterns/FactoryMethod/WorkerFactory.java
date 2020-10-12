@@ -1,5 +1,5 @@
 package CreationalDesignPatterns.FactoryMethod;
 
-interface WorkerFactory{
+interface WorkerFactory {
     Worker createWorker(String worker);
 }

@@ -1,6 +1,6 @@
 package CreationalDesignPatterns.FactoryMethod;
 
-public class Architect implements Worker{
+public class Architect implements Worker {
     @Override
     public void routineBeforeWork() {
         System.out.println("Architect's routine before work");

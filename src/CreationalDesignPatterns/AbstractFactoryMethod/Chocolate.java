@@ -2,9 +2,9 @@ package CreationalDesignPatterns.AbstractFactoryMethod;
 
 public interface Chocolate {
 
-     void addSugar();
+    void addSugar();
 
-     void addButter();
+    void addButter();
 
     void addMilkPowder();
 

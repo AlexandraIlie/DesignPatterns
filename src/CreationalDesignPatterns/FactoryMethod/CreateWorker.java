@@ -1,16 +1,16 @@
 package CreationalDesignPatterns.FactoryMethod;
 
-public class CreateWorker implements WorkerFactory{
+public class CreateWorker implements WorkerFactory {
 
     @Override
     public Worker createWorker(String worker) {
-        switch(worker){
+        switch (worker) {
             case ("ARCHITECT"):
                 return new Architect();
-            case("TEACHER"):
+            case ("TEACHER"):
                 return new Teacher();
             default:
-               return null;
+                return null;
         }
     }
 }
